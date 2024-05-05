@@ -1,0 +1,30 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "AdaBrain Studio Web",
+    "description": "",
+    "home_page_url": "https://adabrain.studio",
+    "feed_url": "https://adabrain.studio/feed.json",
+    "user_comment": "",
+    "icon": "https://adabrain.studio/media/website/LogoAdaBrain.png",
+    "author": {
+        "name": "Ada Arkane"
+    },
+    "items": [
+        {
+            "id": "https://adabrain.studio/products/",
+            "url": "https://adabrain.studio/products/",
+            "title": "AdaBrain Products",
+            "summary": "Wow! Its work!",
+            "content_html": "<figure class=\"post__image post__image--wide\"><img loading=\"lazy\"  src=\"https://adabrain.studio/media/posts/1/Screenshot-2567-05-02-at-23.40.54-3.png\" alt=\"\" width=\"1920\" height=\"1080\" sizes=\"100vw\" srcset=\"https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-xs.png 300w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-sm.png 480w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-md.png 768w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-lg.png 1024w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-xl.png 1360w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-2xl.png 1600w\"></figure>\n<p>Wow! Its work!</p>",
+            "image": "https://adabrain.studio/media/posts/1/Screenshot-2567-05-02-at-23.40.47-3.png",
+            "author": {
+                "name": "Ada Arkane"
+            },
+            "tags": [
+                   "paideria"
+            ],
+            "date_published": "2024-05-05T19:10:54+07:00",
+            "date_modified": "2024-05-05T20:47:16+07:00"
+        }
+    ]
+}

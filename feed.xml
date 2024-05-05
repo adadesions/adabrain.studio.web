@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>AdaBrain Studio Web</title>
+    <link href="https://adabrain.studio/feed.xml" rel="self" />
+    <link href="https://adabrain.studio" />
+    <updated>2024-05-05T20:47:16+07:00</updated>
+    <author>
+        <name>Ada Arkane</name>
+    </author>
+    <id>https://adabrain.studio</id>
+
+    <entry>
+        <title>AdaBrain Products</title>
+        <author>
+            <name>Ada Arkane</name>
+        </author>
+        <link href="https://adabrain.studio/products/"/>
+        <id>https://adabrain.studio/products/</id>
+        <media:content url="https://adabrain.studio/media/posts/1/Screenshot-2567-05-02-at-23.40.47-3.png" medium="image" />
+            <category term="paideria"/>
+
+        <updated>2024-05-05T19:10:54+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://adabrain.studio/media/posts/1/Screenshot-2567-05-02-at-23.40.47-3.png" alt="" />
+                    Wow! Its work!
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://adabrain.studio/media/posts/1/Screenshot-2567-05-02-at-23.40.47-3.png" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image post__image--wide"><img loading="lazy"  src="https://adabrain.studio/media/posts/1/Screenshot-2567-05-02-at-23.40.54-3.png" alt="" width="1920" height="1080" sizes="100vw" srcset="https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-xs.png 300w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-sm.png 480w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-md.png 768w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-lg.png 1024w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-xl.png 1360w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-2xl.png 1600w"></figure>
+<p>Wow! Its work!</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
