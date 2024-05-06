@@ -3,12 +3,51 @@
     <title>AdaBrain Game Studio - Official Website</title>
     <link href="https://adabrain.studio/feed.xml" rel="self" />
     <link href="https://adabrain.studio" />
-    <updated>2024-05-06T17:48:04+07:00</updated>
+    <updated>2024-05-06T21:22:54+07:00</updated>
     <author>
         <name>Ada Arkane</name>
     </author>
     <id>https://adabrain.studio</id>
 
+    <entry>
+        <title>Unity 2D Farming Course</title>
+        <author>
+            <name>Ada Arkane</name>
+        </author>
+        <link href="https://adabrain.studio/unity-2d-farming-course/"/>
+        <id>https://adabrain.studio/unity-2d-farming-course/</id>
+        <media:content url="https://adabrain.studio/media/posts/5/FarmLoading.png" medium="image" />
+            <category term="Courses"/>
+
+        <updated>2024-05-06T21:19:37+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://adabrain.studio/media/posts/5/FarmLoading.png" alt="" />
+                    Course Description This comprehensive course will guide you through the process of creating a fully functional 2D farming game in&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://adabrain.studio/media/posts/5/FarmLoading.png" class="type:primaryImage" alt="" /></p>
+                
+    <h2 id="course-description">
+      Course Description
+    </h2>
+
+  <p>
+    This comprehensive course will guide you through the process of creating a fully functional 2D farming game in Unity, all within the span of 20 hours. You'll learn the essential concepts of game development, from setting up your project to implementing core gameplay mechanics, such as planting, harvesting, and managing crops and animals.
+  </p>
+
+    <h2 id="instructor">
+      Instructor
+    </h2>
+
+  <p>
+    𝗡𝗔𝗠𝗘: Ada Arkane Kaminkure<br><br>𝗗𝗘𝗚𝗥𝗘𝗘: <br>- Chulalongkorn University, Bachelor of Science in Computer Science<br>- Unity Certified<br><br><b>Expertise</b>: Game Design and Development, Software Engineer, Mathematics
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>[Blog] Paideria World: The Current State - May 2024</title>
         <author>
