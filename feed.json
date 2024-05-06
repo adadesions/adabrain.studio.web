@@ -11,20 +11,20 @@
     },
     "items": [
         {
-            "id": "https://adabrain.studio/products/",
-            "url": "https://adabrain.studio/products/",
-            "title": "AdaBrain Products",
-            "summary": "Wow! Its work!",
-            "content_html": "<figure class=\"post__image post__image--wide\"><img loading=\"lazy\"  src=\"https://adabrain.studio/media/posts/1/Screenshot-2567-05-02-at-23.40.54-3.png\" alt=\"\" width=\"1920\" height=\"1080\" sizes=\"100vw\" srcset=\"https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-xs.png 300w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-sm.png 480w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-md.png 768w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-lg.png 1024w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-xl.png 1360w ,https://adabrain.studio/media/posts/1/responsive/Screenshot-2567-05-02-at-23.40.54-3-2xl.png 1600w\"></figure>\n<p>Wow! Its work!</p>",
-            "image": "https://adabrain.studio/media/posts/1/Screenshot-2567-05-02-at-23.40.47-3.png",
+            "id": "https://adabrain.studio/welcome-to-adabrain-studio/",
+            "url": "https://adabrain.studio/welcome-to-adabrain-studio/",
+            "title": "This is AdaBrain Studio. This is What we Believe.",
+            "summary": "We don't make games just to pass the time. We craft experiences that ignite imaginations, challenge perceptions, and forge unexpected&hellip;",
+            "content_html": "\n    <h2 id=\"we-dont-make-games-just-to-pass-the-time-we-craft-experiences-that-ignite-imaginations-challenge-perceptions-and-forge-unexpected-connections\" class=\"align-center\">\n      We don't make games just to pass the time. We craft experiences that ignite imaginations, challenge perceptions, and forge unexpected connections.\n    </h2>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://adabrain.studio/media/posts/3/AdaBrain-Studio-Logo.png\" height=\"500\" width=\"500\" alt=\"\"  sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://adabrain.studio/media/posts/3/responsive/AdaBrain-Studio-Logo-xs.png 300w ,https://adabrain.studio/media/posts/3/responsive/AdaBrain-Studio-Logo-sm.png 480w ,https://adabrain.studio/media/posts/3/responsive/AdaBrain-Studio-Logo-md.png 768w\">\n      <figcaption>AdaBrain Studio Logo</figcaption>\n    </figure>\n\n  <p>\n    จุดเริ่มต้นของ AdaBrain Studio นั้นเรามีแนวคิดที่จะสร้างเกมเพื่อการทุกคนที่ได้เล่นเกมของเรา ไม่ใช่ได้รับแค่ความสนุกเท่านั้น แต่ต้องได้สิ่งอื่นกลับไปด้วยหลังจากที่เล่นมันเสร็จ เราเลยเริ่มต้นจากแนวเกมที่เรียกกันว่า \"Serious Game\" เป็นเกมที่นำเสนอมุมมองอื่นของการเล่นการที่ให้มากกว่าแค่ความสนุก สิ่งนี้จึงเป็นจุดเริ่มต้นที่จริงจังของเรา จากแนวคิดที่ว่า \"Textbook to Game\" ทำยังไงเราจะสามารถเพิ่มพื้นที่การเรียนรู้ ได้มากกว่าแค่การอ่านหนังสือ หรือการไปเข้าห้องเรียน\n  </p>\n\n  <p>\n    เกมแรกที่เราเริ่มต้นจริงจังกันจริง ๆ คือ เกม Paideria World เป็นการที่เราพัฒนาต้นแบบกันมาหลายเวอร์ชั่นมาก ๆ เลยครับ แต่ตั้งจุดเริ่มต้นของ Pixal Art จนมาถึงทุกวันนี้ที่เกมเราเป็น 3D Environments เต็มตัว เกมนี้หากมองผิวเผิน จะรู้สึกว่าเป็นการด้านการศึกษา แต่ต้องบอกเอาไว้เลยครับ เราได้ออกแบบ วิจัยทั้งวิธีการคิด การเล่น การนำเสมอข้อมูล เพื่อที่จะทำให้เกมนี้ ก้าวข้ามผ่านการเป็น Serious Game จริง ๆ และไม่ใช่แค่ Educational Game แบบที่ในท้องตลอดมีกัน\n  </p>\n\n  <p>\n    มันเลยเป็นอะไรที่ทั้งยาก และสนุกไปพร้อมกันครับ เพราะตัวอย่างเรามีให้เราเห็นไม่ค่อยเยอะ เราเลยบุกบั่น มุ่งมั่นเพื่อให้เกม Paideria World สามารถออกสู่สายตาชาวโลก และเป็นที่ยอมรับให้ได้ครับ\n  </p>\n\n  <p>\n    ทั้งนี้ AdaBrain Studio ก็ไม่ได้หยุดอยู่แค่เกม Paideria World เท่านั้นนะ เนื่องจากพวกเราเป็นกลุ่มคนที่รักในงานเกมอย่างมาก และต้องการจะนำอุตสาหกรรมเกมไทย ไปให้ไกลให้ได้ในระดับโลก แต่จะไปยกทั้งวงการเลยก็จะเกินตัวพวกเราไปหน่อยครับ เราเลยเริ่มจากการสร้างเกมที่จะมีพื้นที่ ให้เกมไทยได้เข้าไปแข่งขันในตลาดโลกได้อย่างเกม Dilemma Deception ที่เป็นเกมแนวสยองขวัญ จิตวิทยาเชิงดาร์ก และผนวกเข้ากับวัฒนธรรมไทย ที่จะสร้างความแตกต่างให้กับผู้พบ เห็น และผู้เล่นได้อย่างแน่นนอน&nbsp;\n  </p>\n\n  <p>\n    นอกจากนี้ AdaBrain Studio ยังมีความมุ่นมั่นที่จะสร้างนักพัฒนาเกมหน้าใหม่ ๆ เพื่อมาเติมเต็มให้กับอุตสาหกรรมเกมไทย ด้วยการเปิดคอร์สสอนพัฒนาเกมในทุก ๆ ระดับ ตั้งแต่เริ่มต้น ไปจนถึงการสามารถสร้างเกมด้วยตนเองได้เลย ซึ่งทีมงานที่เป็นผู้สอนก็ได้รับการ Certified จากทาง Unity Game Engine ด้วยครับ\n  </p>\n\n    <blockquote class=\"blockquote\">\n      สุดท้ายนี้ ความมุ่งมั่น และความฝันของพวกเรา คือ การได้เห็น Game Studio สัญชาติไทย ไปได้ไกลถึงในระดับโลก และเป็นการไปแบบจับมือไปด้วยกัน ไม่ใช่แค่ใคร คนใดคนหนึ่ง ดังนั้นแล้ว AdaBrain Studio จึงของเป็นอีกหนึ่งแรกผลักดัน ที่ทั้งดันตัวเอง และดันคนอื่น ไปให้ถึงฝันครับ\n    </blockquote>\n\n  <p>\n    <b>Ada Arkhane</b>\n  </p>",
+            "image": "https://adabrain.studio/media/posts/3/adadesions_game_developer_team_center_standing_anime-style_like_e35349f0-b0ff-434c-b4f5-8bfb313ea2bc.png",
             "author": {
                 "name": "Ada Arkane"
             },
             "tags": [
-                   "paideria"
+                   "editor_pick"
             ],
-            "date_published": "2024-05-05T19:10:54+07:00",
-            "date_modified": "2024-05-05T20:47:16+07:00"
+            "date_published": "2024-05-06T15:39:54+07:00",
+            "date_modified": "2024-05-06T16:08:05+07:00"
         }
     ]
 }
