@@ -3,12 +3,61 @@
     <title>AdaBrain Game Studio - Official Website</title>
     <link href="https://adabrain.studio/feed.xml" rel="self" />
     <link href="https://adabrain.studio" />
-    <updated>2024-05-08T14:57:38+07:00</updated>
+    <updated>2024-05-08T16:11:45+07:00</updated>
     <author>
         <name>Ada Arkane</name>
     </author>
     <id>https://adabrain.studio</id>
 
+    <entry>
+        <title>Call On Gods</title>
+        <author>
+            <name>Ada Arkane</name>
+        </author>
+        <link href="https://adabrain.studio/call-on-gods/"/>
+        <id>https://adabrain.studio/call-on-gods/</id>
+        <media:content url="https://adabrain.studio/media/posts/9/jjxdc8.png" medium="image" />
+            <category term="Playable Games"/>
+            <category term="Call On Gods"/>
+
+        <updated>2024-05-08T16:11:28+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://adabrain.studio/media/posts/9/jjxdc8.png" alt="" />
+                    You will role-played as the gods assistant depending on the event, in the first version you will play as "Devatã"&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://adabrain.studio/media/posts/9/jjxdc8.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    <br>You will role-played as the gods assistant depending on the event, in the first version you will play as "Devatã" and "Archarã", Ganga Mata's assistants in Loy Krathong festival.<br><br>You duty is to protect "Krathongs" from destroyed by its enemies and you have to deliver it to "Ganga Mata" so she will make people wish come true.<br><br>
+  </p>
+
+    <h2 id="lets-go-to-worklessbrgreater">
+      Let's go to work!<br>
+    </h2>
+
+  <p>
+    เกมแนว: Bullet-Hell, Arcade<br>
+  </p>
+
+  <p>
+    วิธีการเล่น: ผู้เล่นรับบทเป็นเทวดา และนางฟ้าประจำแม่น้ำ ทำหน้าที่ปกป้องกระทงของมนุษย์ให้พ้นภัยจากอุปสรรคอันตรายทั้งปวง ไม่ว่าจะเป็น เด็กเปรตที่จ้องจะจมกระทง เต่า จระเข้ที่หิวโหย ในฐานะบริวารของพระแม่คงคา คุณ! ต้องนำกระทงของมนุษย์ไปถวายพระแม่ให้จงได้!!!!<br><br>---<br><br>ตอนแรกออกแบบมาให้เป็นเกม Arcade เพราะเราทำเกมนี้มาเพื่อไปออกบูธให้เด็ก ๆ ที่โรงเรียนเล่น จึงมีทั้งการจัดกัดเวลาต่อรอบ การ Over ตามจำนวน Life แต่พอจบงานเด็ก ๆ อยากเล่นต่อเลยเอาลง Itch.io ให้ซะเลย แล้วเติม Virtual Joystick ให้ด้วย
+  </p>
+
+  <p>
+    
+  </p>
+<div><div class="post__iframe"><iframe loading="lazy" frameborder="0" src="https://itch.io/embed/1782703" width="552" height="167"><a href="https://adabrain-studio.itch.io/call-on-gods">Call On Gods by AdaBrain Studio</a></iframe></div></div>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Inviter 2: Samhainophobia</title>
         <author>
@@ -17,7 +66,8 @@
         <link href="https://adabrain.studio/the-inviter-2-samhainophobia/"/>
         <id>https://adabrain.studio/the-inviter-2-samhainophobia/</id>
         <media:content url="https://adabrain.studio/media/posts/8/372721071_3547570878849869_1419022044886315625_n.jpg" medium="image" />
-            <category term="the_inviter"/>
+            <category term="The Inviter"/>
+            <category term="Playable Games"/>
 
         <updated>2024-05-08T14:52:34+07:00</updated>
             <summary>
@@ -54,7 +104,8 @@
         <link href="https://adabrain.studio/the-inviter-the-first-game-for-adbgj/"/>
         <id>https://adabrain.studio/the-inviter-the-first-game-for-adbgj/</id>
         <media:content url="https://adabrain.studio/media/posts/7/Screenshot-2567-05-08-at-14.13.11.png" medium="image" />
-            <category term="the_inviter"/>
+            <category term="The Inviter"/>
+            <category term="Playable Games"/>
 
         <updated>2024-05-08T14:10:29+07:00</updated>
             <summary>
@@ -91,8 +142,8 @@
         <link href="https://adabrain.studio/blog-ebuuenghlangkaarsraang-world-map-khng-paideria-world/"/>
         <id>https://adabrain.studio/blog-ebuuenghlangkaarsraang-world-map-khng-paideria-world/</id>
         <media:content url="https://adabrain.studio/media/posts/6/Screenshot_2024-05-01_173216-1.png" medium="image" />
-            <category term="paideria"/>
-            <category term="editor_pick"/>
+            <category term="Paideria"/>
+            <category term="Editor&#x27;s Pick"/>
 
         <updated>2024-05-08T13:07:59+07:00</updated>
             <summary>
@@ -342,8 +393,8 @@
         <link href="https://adabrain.studio/blog-paideria-world-the-current-state-may-2024/"/>
         <id>https://adabrain.studio/blog-paideria-world-the-current-state-may-2024/</id>
         <media:content url="https://adabrain.studio/media/posts/4/Screenshot-2567-05-06-at-17.36.40.png" medium="image" />
-            <category term="paideria"/>
-            <category term="editor_pick"/>
+            <category term="Paideria"/>
+            <category term="Editor&#x27;s Pick"/>
 
         <updated>2024-05-06T17:38:10+07:00</updated>
             <summary>
@@ -417,7 +468,7 @@
         <link href="https://adabrain.studio/welcome-to-adabrain-studio/"/>
         <id>https://adabrain.studio/welcome-to-adabrain-studio/</id>
         <media:content url="https://adabrain.studio/media/posts/3/adadesions_game_developer_team_center_standing_anime-style_like_e35349f0-b0ff-434c-b4f5-8bfb313ea2bc.png" medium="image" />
-            <category term="editor_pick"/>
+            <category term="Editor&#x27;s Pick"/>
 
         <updated>2024-05-06T15:39:54+07:00</updated>
             <summary>
