@@ -3,12 +3,224 @@
     <title>AdaBrain Game Studio - Official Website</title>
     <link href="https://adabrain.studio/feed.xml" rel="self" />
     <link href="https://adabrain.studio" />
-    <updated>2024-05-06T21:22:54+07:00</updated>
+    <updated>2024-05-08T13:08:11+07:00</updated>
     <author>
         <name>Ada Arkane</name>
     </author>
     <id>https://adabrain.studio</id>
 
+    <entry>
+        <title>[Blog] เบื้องหลังการสร้าง World Map ของ Paideria World</title>
+        <author>
+            <name>Ada Arkane</name>
+        </author>
+        <link href="https://adabrain.studio/blog-ebuuenghlangkaarsraang-world-map-khng-paideria-world/"/>
+        <id>https://adabrain.studio/blog-ebuuenghlangkaarsraang-world-map-khng-paideria-world/</id>
+        <media:content url="https://adabrain.studio/media/posts/6/Screenshot_2024-05-01_173216-1.png" medium="image" />
+            <category term="paideria"/>
+            <category term="editor_pick"/>
+
+        <updated>2024-05-08T13:07:59+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://adabrain.studio/media/posts/6/Screenshot_2024-05-01_173216-1.png" alt="" />
+                    Dev's Blog ของ Paideria World ตัวผมตัดสินใจว่าจะนำเบื้องหลังการสร้างแต่ละสิ่งอย่าง มาเล่าให้ได้ฟังกัน เพราะในไทยเราไม่ค่อยได้มี Blog แนวนี้กันมากนัก ถ้าสิ่งนี้ได้ไปจุดประการความฝันของใครหลาย ๆ คนเพียงเท่านี้ผมก็มีความสุข แล้วครับ เริ่ม! เราจะสร้าง World Map แบบโหลด SubScene&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://adabrain.studio/media/posts/6/Screenshot_2024-05-01_173216-1.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    Dev's Blog ของ Paideria World ตัวผมตัดสินใจว่าจะนำเบื้องหลังการสร้างแต่ละสิ่งอย่าง มาเล่าให้ได้ฟังกัน เพราะในไทยเราไม่ค่อยได้มี Blog แนวนี้กันมากนัก ถ้าสิ่งนี้ได้ไปจุดประการความฝันของใครหลาย ๆ คนเพียงเท่านี้ผมก็มีความสุข แล้วครับ เริ่ม!
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://adabrain.studio/media/posts/6/map0.jpeg" height="799" width="1420" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://adabrain.studio/media/posts/6/responsive/map0-xs.jpeg 300w ,https://adabrain.studio/media/posts/6/responsive/map0-sm.jpeg 480w ,https://adabrain.studio/media/posts/6/responsive/map0-md.jpeg 768w">
+      <figcaption>การวางโครงสร้างของแผนที่แบบ Open World</figcaption>
+    </figure>
+
+    <h2 id="erimtnthiimngaanaidrabocchthycchaakphiiedaawaa">
+      เริ่มต้นทีมงานได้รับโจทย์จากพี่เอด้าว่า...
+    </h2>
+
+  <p>
+    เราจะสร้าง World Map แบบโหลด SubScene เอาเพื่อให้มันสามารถรันได้บน Mobile Platform และ Seemlessly ระหว่างการเดินทางสำรวจพื้นที่ ทีมงานเลยเริ่มร่าง Map ขึ้นมาออกแบบเป็น Scene ย่อย ๆ และตั้งชื่อ Areas ต่าง ๆ แบบระบบ Grids
+  </p>
+
+  <p>
+    World Map เวอร์ชั่นแรกที่ Level Designer ทำให้พวกเรามองเห็นภาพกันมายิ่งขึ้น
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://adabrain.studio/media/posts/6/map1.png" height="2035" width="2000" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://adabrain.studio/media/posts/6/responsive/map1-xs.png 300w ,https://adabrain.studio/media/posts/6/responsive/map1-sm.png 480w ,https://adabrain.studio/media/posts/6/responsive/map1-md.png 768w">
+      <figcaption>รายละเอียดจุดต่าง ๆ ที่ Level Designer อยากให้เป็นและบรีฟพวกเรามา ตรงกลางจะเว้นไว้สำหรับการวาง Paideria Kingdom</figcaption>
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://adabrain.studio/media/posts/6/map2.png" height="946" width="2000" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://adabrain.studio/media/posts/6/responsive/map2-xs.png 300w ,https://adabrain.studio/media/posts/6/responsive/map2-sm.png 480w ,https://adabrain.studio/media/posts/6/responsive/map2-md.png 768w">
+      <figcaption>การวางสิ่งปลูกสร้างเทียบกับ Scale ของตัวละครจริง</figcaption>
+    </figure>
+
+  <p>
+    ช่วงนี้เป็นช่วงที่เราตกลงกันอย่างหนักในเรื่องของเชิงเทคนิคว่าแต่ละ Terrain ควรมีขนาดเท่าไหร่ และเราควรวาง Grid กันยังไง ซึ่งเราก็เอาระบบ Nearest Neighbor มาวางเตรียมไว้เพื่อการโหลด Subscene แบบ Openworld เพื่อให้ผู้เล่นจะได้ไม่ต้องรู้สึกถึงการโหลดเวลาเดินทางข้ามพื้นที่ต่าง ๆ&nbsp;
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="2">
+      <figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/map3.png" data-size="1420x1243">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/map3-thumbnail.png" height="630" width="720" alt="" >
+      </a>
+      <figcaption>เริ่มนำ Texture จริงของเกมมาใส่</figcaption>
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/map4.png" data-size="660x643">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/map4-thumbnail.png" height="643" width="660" alt="" >
+      </a>
+      <figcaption>Level Designer พยายามอย่างหนักเพื่อ Visualized ทีมให้เห็นภาพ</figcaption>
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    หลักจากตกลงกันอย่างจริงจัง แล้วเราก็เริ่มลุยกันต่อโดยนำ Textures ของจริงที่เราใช้กับ Scene อื่น ๆ มาลงกันแล้วครับ แต่นั้นก็ยังไม่พอ Level Designer ของเราก็ยังพยายาม Visualized อย่างต่อเนื่องให้เราเห็นภาพสุดท้ายกันให้ได้
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="2">
+      <figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_175004.png" data-size="1420x637">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_175004-thumbnail.png" height="323" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_180755.png" data-size="1420x794">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_180755-thumbnail.png" height="403" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_180816.png" data-size="1420x631">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_180816-thumbnail.png" height="320" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_180830.png" data-size="1420x613">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_180830-thumbnail.png" height="311" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_181035.png" data-size="1420x641">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_181035-thumbnail.png" height="325" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_181118.png" data-size="1420x635">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-24_181118-thumbnail.png" height="322" width="720" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+    <h2 id="aelaaelwkaar-mock-up-singpluuksraangsamkhay-kerimaelw">
+      และแล้วการ Mock up สิ่งปลูกสร้างสำคัญ ๆ ก็เริ่มแล้ว
+    </h2>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://adabrain.studio/media/posts/6/Screenshot_2024-04-25_181140.png" height="1259" width="1420" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-04-25_181140-xs.png 300w ,https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-04-25_181140-sm.png 480w ,https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-04-25_181140-md.png 768w">
+      <figcaption>Landmark Mockup กันไว้ก่อน เพราะต้องส่งให้อีกคนในทีมทำกันต่อ</figcaption>
+    </figure>
+
+  <p>
+    เราเริ่มเพิ่มเติม Fantasy Elements ต่าง ๆ ลงไปใน World Map ของ Paideria World เพื่อให้เวลาผู้เล่นเดินเข้าไปสำรวจในโลกแห่งนี้ แล้วเกิดความรู้สึกถึงโลกที่แตกต่าง
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="2">
+      <figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/concept3.png" data-size="2000x928">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/concept3-thumbnail.png" height="334" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-25_181207.png" data-size="2000x928">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-25_181207-thumbnail.png" height="334" width="720" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://adabrain.studio/media/posts/6/Screenshot_2024-04-25_185056.png" height="1158" width="2000" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-04-25_185056-xs.png 300w ,https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-04-25_185056-sm.png 480w ,https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-04-25_185056-md.png 768w">
+      
+    </figure>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/concept.png" data-size="2000x935">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/concept-thumbnail.png" height="337" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-25_181027.png" data-size="1420x664">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-04-25_181027-thumbnail.png" height="337" width="720" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    Level Designer ของเราถนัดการ Visualized Concept ของงานออกมาให้กับทีมงานที่เหลือเห็นภาพเป็นอย่างมากครับ วางในหัวของเขาตรงนี้ตั้งใจจะให้เป็นอะไร
+  </p>
+
+    <h2 id="phuumipraethsthiiaetktaang-aelahlaayhlaayepnsingthiithamaihekmaenw-fantasy-naasnaicchmaakyingkhuen">
+      ภูมิประเทศที่แตกต่าง และหลายหลายเป็นสิ่งที่ทำให้เกมแนว Fantasy น่าสนใจมากยิ่งขึ้น
+    </h2>
+
+  <p>
+    พอมาถึงตรงนี้การวางลง Textures ของภูมิประเทศต่าง ๆ ก็ต้องมาแล้วล่ะครับ
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://adabrain.studio/media/posts/6/Screenshot_2024-05-01_173216.png" height="1430" width="1420" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-05-01_173216-xs.png 300w ,https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-05-01_173216-sm.png 480w ,https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-05-01_173216-md.png 768w">
+      <figcaption>การแบ่ง Zone ที่ชัดเจน และการลง Texture ที่พร้อมนำไปใช้งานจริง</figcaption>
+    </figure>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="2">
+      <figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-05-01_173534.png" data-size="2000x1411">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-05-01_173534-thumbnail.png" height="508" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-05-01_173703.png" data-size="1420x891">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-05-01_173703-thumbnail.png" height="452" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-05-01_173729.png" data-size="2000x1212">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-05-01_173729-thumbnail.png" height="436" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-05-01_173839.png" data-size="2000x1235">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/6/gallery/Screenshot_2024-05-01_173839-thumbnail.png" height="445" width="720" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    Level Design ถือว่าเป็นหนึ่งในความท้าท้ายของทีมเรา และทุก ๆ ทีมในการพัฒนาเกมเป็นอย่างมากครับ ความสนุกทั้งในเชิงงานสถาปัตยกรรม และงานอาร์ตที่ต้องเหนือจินตนาการ เป็นสิ่งที่จะทำให้เกมของเราดูน่าค้นหา และน่าใช้เวลาไปกับการสำรวจ ทั้งนี้ ต้องขอขอบพระคุณเกมจาก From Software ทุก ๆ เกม, The Legend of Zelda, และ Anime เรื่อง Made in Abyss เป็นอย่างสูงที่สร้างแรงบันดาลใจให้กับ AdaBrain Studio ในการออกแบบ Level Design ครับ
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Unity 2D Farming Course</title>
         <author>
