@@ -3,12 +3,34 @@
     <title>AdaBrain Game Studio - Official Website</title>
     <link href="https://adabrain.studio/feed.xml" rel="self" />
     <link href="https://adabrain.studio" />
-    <updated>2024-05-08T16:11:45+07:00</updated>
+    <updated>2024-05-09T13:44:28+07:00</updated>
     <author>
         <name>Ada Arkane</name>
     </author>
     <id>https://adabrain.studio</id>
 
+    <entry>
+        <title>AdaBrain GameJams 2024</title>
+        <author>
+            <name>Ada Arkane</name>
+        </author>
+        <link href="https://adabrain.studio/adabrain-gamejams-2024/"/>
+        <id>https://adabrain.studio/adabrain-gamejams-2024/</id>
+        <media:content url="https://adabrain.studio/media/posts/10/AdaBrainGameJams2024_Cover.png" medium="image" />
+            <category term="GameJams 2024"/>
+
+        <updated>2024-05-09T13:44:02+07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://adabrain.studio/media/posts/10/AdaBrainGameJams2024_Cover.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Call On Gods</title>
         <author>

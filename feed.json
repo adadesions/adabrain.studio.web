@@ -11,6 +11,21 @@
     },
     "items": [
         {
+            "id": "https://adabrain.studio/adabrain-gamejams-2024/",
+            "url": "https://adabrain.studio/adabrain-gamejams-2024/",
+            "title": "AdaBrain GameJams 2024",
+            "content_html": "\n  <p>\n    \n  </p>",
+            "image": "https://adabrain.studio/media/posts/10/AdaBrainGameJams2024_Cover.png",
+            "author": {
+                "name": "Ada Arkane"
+            },
+            "tags": [
+                   "GameJams 2024"
+            ],
+            "date_published": "2024-05-09T13:44:02+07:00",
+            "date_modified": "2024-05-09T13:44:28+07:00"
+        },
+        {
             "id": "https://adabrain.studio/call-on-gods/",
             "url": "https://adabrain.studio/call-on-gods/",
             "title": "Call On Gods",
