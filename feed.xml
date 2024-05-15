@@ -3,12 +3,211 @@
     <title>AdaBrain Game Studio - Official Website</title>
     <link href="https://adabrain.studio/feed.xml" rel="self" />
     <link href="https://adabrain.studio" />
-    <updated>2024-05-09T13:44:28+07:00</updated>
+    <updated>2024-05-16T01:03:01+07:00</updated>
     <author>
         <name>Ada Arkane</name>
     </author>
     <id>https://adabrain.studio</id>
 
+    <entry>
+        <title>[Blog] ผมบอกเลยว่าตอนนี้ Paideria World น่าจะใกล้เข้าสู่ความเป็น Edu-RPG + Soul-Like เข้าไปทุกวัน ๆ แล้วล่ะครับ</title>
+        <author>
+            <name>Ada Arkane</name>
+        </author>
+        <link href="https://adabrain.studio/paideria-world-aegis-dungeon/"/>
+        <id>https://adabrain.studio/paideria-world-aegis-dungeon/</id>
+        <media:content url="https://adabrain.studio/media/posts/11/Screenshot_2024-05-15_180344.png" medium="image" />
+            <category term="Paideria"/>
+            <category term="Editor&#x27;s Pick"/>
+
+        <updated>2024-05-16T01:02:47+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://adabrain.studio/media/posts/11/Screenshot_2024-05-15_180344.png" alt="" />
+                    อันดับแรกต้องออกตัวก่อนเลยครับว่าผม เป็นคนที่ชอบเกมแนว Soul-Like มากกกก ถึงมากที่สุด แต่ด้วยความที่เราชอบการศึกษาเลยเริ่มโปรเจคแรกอย่างจริงจังด้วย Serious Game และ Eductional Game ก่อน แต่มันก็อดไม่ได้จริง ๆ ครับ ที่จะแอบเอาความชอบของผู้สร้างใส่ลงไปในเกมของเรา วันนี้เลยแอบเอา Aegis Dungeon ซึ่งเป็น&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://adabrain.studio/media/posts/11/Screenshot_2024-05-15_180344.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    อันดับแรกต้องออกตัวก่อนเลยครับว่าผม เป็นคนที่ชอบเกมแนว Soul-Like มากกกก ถึงมากที่สุด แต่ด้วยความที่เราชอบการศึกษาเลยเริ่มโปรเจคแรกอย่างจริงจังด้วย Serious Game และ Eductional Game ก่อน แต่มันก็อดไม่ได้จริง ๆ ครับ ที่จะแอบเอาความชอบของผู้สร้างใส่ลงไปในเกมของเรา
+  </p>
+
+  <p>
+    วันนี้เลยแอบเอา Aegis Dungeon ซึ่งเป็น สถานที่หลักในเกม Paideria World มาให้ทุกท่านได้ดูกันก่อนที่จะเปิดตัวเวอร์ชั่นที่เราพร้อมจะให้เล่นกันจริง ๆ ครับ
+  </p>
+
+  <p>
+    เริ่มต้น Level Designer ของเราที่รับผิดชอบในส่วนของ Dungeon ได้ทำการออกแบบแผนผัง ไว้ก่อนแบบนี้เลยยย&nbsp;
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-02_182437.png" data-size="2000x3306">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-02_182437-thumbnail.png" height="1190" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-02_182426.png" data-size="580x473">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-02_182426-thumbnail.png" height="473" width="580" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-02_182421.png" data-size="580x495">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-02_182421-thumbnail.png" height="495" width="580" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    แบ่งตามขนาดของ Dungeon แต่ละแบบตามที่พี่เอด้าบรีฟไว้ให้ หลังจาก Approved กันแล้วก็จะเริ่มลงมือขึ้นแบบของ Dungeon กันครับ
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Untitled.png" data-size="1440x1134">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Untitled-thumbnail.png" height="567" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Untitled-1.png" data-size="1440x362">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Untitled-1-thumbnail.png" height="181" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Untitled-2.png" data-size="1540x578">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Untitled-2-thumbnail.png" height="270" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-06_182145.png" data-size="1420x624">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-06_182145-thumbnail.png" height="316" width="720" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    พอเป็นรูปเป็นร่างขึ้นมาแล้ว พวกเราก็เริ่มสนุกกันแล้วครับ ไอเดียพลุ่งพล่านนนนนน! 55555 บอกเลยว่าวันที่เห็นโครงร่างขึ้นมาแล้วมันมีพลังงานแปลก ๆ ผลักดันให้ลุยกันต่อ
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://adabrain.studio/media/posts/11/Screenshot_2024-05-08_183737.png" height="749" width="1420" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://adabrain.studio/media/posts/11/responsive/Screenshot_2024-05-08_183737-xs.png 300w ,https://adabrain.studio/media/posts/11/responsive/Screenshot_2024-05-08_183737-sm.png 480w ,https://adabrain.studio/media/posts/11/responsive/Screenshot_2024-05-08_183737-md.png 768w">
+      
+    </figure>
+
+  <p>
+    ช่วงนี้ Level Designer ทำการ research หนักขึ้นเพราะเราต้องการรู้ว่า Best practies ของการทำผนัง Dungeon มันเป็นยังไงหื้ออออ~&nbsp;
+  </p>
+
+  <p>
+    แต่เราก็ได้พบว่าสิ่งที่เราทำมามันใช้ได้เลยล่ะ ไม่เสียแรง ๆ ^^
+  </p>
+
+    <h2 id="maatkaetng-interior-kanethaphwkeraa">
+      มาตกแต่ง Interior กันเถอะพวกเรา
+    </h2>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="2">
+      <figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-09_181508.png" data-size="1420x661">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-09_181508-thumbnail.png" height="335" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-10_163226.png" data-size="1420x609">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-10_163226-thumbnail.png" height="309" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-10_163203.png" data-size="1420x646">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-10_163203-thumbnail.png" height="328" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-10_163238.png" data-size="1420x1055">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-10_163238-thumbnail.png" height="535" width="720" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    มันออกมาได้ดูดีเลย แต่นี่เป็นเวอร์ชั่น Draft เท่านั้นเพราะเรายังรู้สึกว่ามันยังไม่เป็นเอกลักษณ์ของ Paideria World เท่าที่ควร และที่สำคัญ เรายังสามารถดันไปได้มากกว่านี้ครับ (ที่เห็นชมพู ๆ เนี้ย เพราะ Level Designer ของเรายังไม่มี Material ในส่วนนี้ครับ มันอยู่กับ World Map Designer ครับ ^^)
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://adabrain.studio/media/posts/11/Screenshot_2024-05-14_180513.png" height="584" width="1360" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://adabrain.studio/media/posts/11/responsive/Screenshot_2024-05-14_180513-xs.png 300w ,https://adabrain.studio/media/posts/11/responsive/Screenshot_2024-05-14_180513-sm.png 480w ,https://adabrain.studio/media/posts/11/responsive/Screenshot_2024-05-14_180513-md.png 768w">
+      <figcaption>อันนี้เป็น Final Layouts Dungeon ทั้งหมดที่เราจะได้ใช้งานกันจริงแล้วครับ</figcaption>
+    </figure>
+
+  <p>
+    และแล้วเราก็ได้ Materials และ Textures ต่าง ๆ ที่จะเข้ากับ Dungeon Interior ของเราจริง ๆ แล้วครับ&nbsp;
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="2">
+      <figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-15_180344.png" data-size="1420x675">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-15_180344-thumbnail.png" height="342" width="720" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-15_175432.png" data-size="1420x1074">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-15_175432-thumbnail.png" height="545" width="720" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    อยากที่เคยนำเสนอไปก่อนหน้านี้ครับว่า การทำเกมของเราชาวไทยหลัก ๆ ต้องมองไปที่การหาพื้นที่ ที่จะขึ้นมาเบียดในตลาดเกมระดับโลกให้ได้ ซึ่งถ้าเราจะไปทำตาม AAA Studio คิดว่าอีกหลายสิบปีเลยที่เราจะตามทันทั้งในแง่ของเงินทุน และเทคโนโลยี
+  </p>
+
+  <p>
+    ดังนั้นแล้ว ส่วนตัวผมนำเสนอการสร้างเกมไทยที่สร้างเอกลักษณ์แบบไทย ๆ ให้ได้ วัฒนธรรม สิ่งก่อสร้าง ความเก่า ความโบราณ อะไรที่เรามีเอามาใส่ เอามาเล่นให้หมดครับ จุดนี้ผมมองว่าเราจะแตกต่างจริง ๆ จากตลาดโลก
+  </p>
+
+  <p>
+    กลับมาครับ ตอนนี้ใน Paideria World จึงพยายามนำเสนอสถาปัตยกรรมแบบไทย ๆ เอเชียน ๆ ผสม ๆ กัน กับความ Fantasy ที่ทั่วโลกคุ้นเคยกันอยู่แล้ว เราต้องการนำเสนอ แต่จะไม่ยัดเยียดจนเกินงามครับ
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="2">
+      <figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-15_185442.png" data-size="1420x864">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-15_185442-thumbnail.png" height="438" width="720" alt="" >
+      </a>
+      <figcaption>เป็นตกแต่งยังไม่ได้จัดแสงและเงาให้เราตัวครับ</figcaption>
+    </figure><figure class="gallery__item">
+      <a href="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-15_185435.png" data-size="1420x608">
+        <img loading="lazy" src="https://adabrain.studio/media/posts/11/gallery/Screenshot_2024-05-15_185435-thumbnail.png" height="308" width="720" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    สุดท้ายนี้ท่านที่อ่านจนมาถึงบรรทัดนี้อาจจะเกิดความสงสัยได้ว่าแล้ว Aegis Dungeon มันคืออะไรนะ ?
+  </p>
+
+  <p>
+    ตรงนี้ผมคงต้องแอบอุบเอาไว้ก่อน เพราะเดี๋ยวตั้งใจจะมาเล่า Setting และ Flows ทั้งหมดให้ทุกท่านได้อ่านกันอยู่แล้วครับ ยังไงก่อนจากลากันไปก็ขอฝากเกม Paideria World ไว้ด้วยนะครับบบบบบบบ
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>AdaBrain GameJams 2024</title>
         <author>
