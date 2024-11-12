@@ -3,7 +3,7 @@
     <title>AdaBrain Game Studio - Official Website</title>
     <link href="https://adabrain.studio/feed.xml" rel="self" />
     <link href="https://adabrain.studio" />
-    <updated>2024-11-12T15:54:58+07:00</updated>
+    <updated>2024-11-12T15:57:40+07:00</updated>
     <author>
         <name>Ada Arkane</name>
     </author>
@@ -16,15 +16,19 @@
         </author>
         <link href="https://adabrain.studio/build-unity-game-dwy-gameci-bn-github-action/"/>
         <id>https://adabrain.studio/build-unity-game-dwy-gameci-bn-github-action/</id>
+        <media:content url="https://adabrain.studio/media/posts/13/game-ci-github-banner-2.png" medium="image" />
+            <category term="Editor&#x27;s Pick"/>
 
         <updated>2024-11-12T15:54:58+07:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://adabrain.studio/media/posts/13/game-ci-github-banner-2.png" alt="" />
                     GameCI It's Free and Forever แทนที่เราจะมานั่ง Manual Build แบบที่เราเคยทำ ๆ กันมาบน Unity Editor วันนี้มาลอง Automatic Build กันด้วย GameCI บน Github&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://adabrain.studio/media/posts/13/game-ci-github-banner-2.png" class="type:primaryImage" alt="" /></p>
                 
     <figure class="post__image post__image--center">
       <img loading="lazy" src="https://adabrain.studio/media/posts/13/game-ci-github-banner.png" height="1080" width="1920" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://adabrain.studio/media/posts/13/responsive/game-ci-github-banner-xs.png 300w ,https://adabrain.studio/media/posts/13/responsive/game-ci-github-banner-sm.png 480w ,https://adabrain.studio/media/posts/13/responsive/game-ci-github-banner-md.png 768w">
