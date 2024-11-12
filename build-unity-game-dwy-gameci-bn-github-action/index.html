@@ -1,0 +1,515 @@
+<!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><title>Build Unity Game ด้วย GameCI บน Github Action - AdaBrain Game Studio - Official Website</title><meta name="description" content="Build Unity Game ด้วย GameCI บน Github Action, AdaBrain Game Studio - Official Website, Ada Arkane."><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://adabrain.studio/build-unity-game-dwy-gameci-bn-github-action/"><link rel="alternate" type="application/atom+xml" href="https://adabrain.studio/feed.xml"><link rel="alternate" type="application/json" href="https://adabrain.studio/feed.json"><meta property="og:title" content="Build Unity Game ด้วย GameCI บน Github Action"><meta property="og:image" content="https://adabrain.studio/media/website/AdaBrain-Studio-Logo.png"><meta property="og:image:width" content="500"><meta property="og:image:height" content="500"><meta property="og:site_name" content="AdaBrain Game Studio - Official Website"><meta property="og:description" content="Build Unity Game ด้วย GameCI บน Github Action, AdaBrain Game Studio - Official Website, Ada Arkane."><meta property="og:url" content="https://adabrain.studio//build-unity-game-dwy-gameci-bn-github-action/"><meta property="og:type" content="article"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@adabraintv"><meta name="twitter:title" content="Build Unity Game ด้วย GameCI บน Github Action"><meta name="twitter:description" content="Build Unity Game ด้วย GameCI บน Github Action, AdaBrain Game Studio - Official Website, Ada Arkane."><meta name="twitter:image" content="https://adabrain.studio/media/website/AdaBrain-Studio-Logo.png"><link rel="shortcut icon" href="https://adabrain.studio/media/website/favicon.ico" type="image/x-icon"><link rel="preload" href="https://adabrain.studio/assets/dynamic/fonts/robotoflex/robotoflex.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://adabrain.studio/assets/dynamic/fonts/orbitron/orbitron.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="https://adabrain.studio/assets/css/fontawesome-all.min.css?v=85514f933f9e0b82460af63f1a403fa5"><link rel="stylesheet" href="https://adabrain.studio/assets/css/style.css?v=4dac85ce2be08c1b194270bd3f388437"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://adabrain.studio/build-unity-game-dwy-gameci-bn-github-action/"},"headline":"Build Unity Game ด้วย GameCI บน Github Action","datePublished":"2024-11-12T15:54+07:00","dateModified":"2024-11-12T15:54+07:00","image":{"@type":"ImageObject","url":"https://adabrain.studio/media/website/LogoAdaBrain.png","height":500,"width":500},"description":"Build Unity Game ด้วย GameCI บน Github Action, AdaBrain Game Studio - Official Website, Ada Arkane.","author":{"@type":"Person","name":"Ada Arkane","url":"https://adabrain.studio/authors/ada-arkane/"},"publisher":{"@type":"Organization","name":"Ada Arkane","logo":{"@type":"ImageObject","url":"https://adabrain.studio/media/website/LogoAdaBrain.png","height":500,"width":500}}}</script><noscript><style>img[loading] {
+                    opacity: 1;
+                }</style></noscript></head><body class="is-preload"><div id="wrapper"><div id="main"><div class="inner"><header id="header"><a class="logo logo-image" href="https://adabrain.studio/"><img src="https://adabrain.studio/media/website/LogoAdaBrain.png" alt="AdaBrain Game Studio - Official Website" width="500" height="500"></a><ul class="icons"><li><a href="https://twitter.com/adabraintv" class="icon brands fa-x-twitter"><span class="label">Twitter</span></a></li><li><a href="https://www.facebook.com/adabrainschool" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li><li><a href="https://www.instagram.com/adabraintv/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li><li><a href="https://www.linkedin.com/in/arkane-kaminkure-2b6257299/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li><li><a href="https://www.youtube.com/@AdaBraintv" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li></ul></header><article class="post"><header class="main post__header"><time datetime="2024-11-12T15:54" class="post__date">November 12, 2024</time><h1>Build Unity Game ด้วย GameCI บน Github Action</h1></header><div class="post__inner post__entry"><figure class="post__image post__image--center"><img loading="lazy" src="https://adabrain.studio/media/posts/13/game-ci-github-banner.png" height="1080" width="1920" alt="" sizes="(max-width: 48em) 100vw, 768px" srcset="https://adabrain.studio/media/posts/13/responsive/game-ci-github-banner-xs.png 300w, https://adabrain.studio/media/posts/13/responsive/game-ci-github-banner-sm.png 480w, https://adabrain.studio/media/posts/13/responsive/game-ci-github-banner-md.png 768w"><figcaption>GameCI It's Free and Forever</figcaption></figure><p>แทนที่เราจะมานั่ง Manual Build แบบที่เราเคยทำ ๆ กันมาบน Unity Editor วันนี้มาลอง Automatic Build กันด้วย GameCI บน Github Action กันครับ ซึ่งในความเป็นจริงเราสามารถที่จะ Builds หลาย ๆ Platforms ได้พร้อมกันครับ จะเป็นหลังจากที่ push หรือ pull request ก็ได้ครับ แต่ในบทความนี้ผมจะมุ่งประเด็นไปที่ WebGL เป็นหลักนะคร้าบบบบบ</p><blockquote class="blockquote">สำหรับ <b>Unity Editor Version</b> วันนี้ผมจะใช้ <b>Unity 6000.0.25f1</b></blockquote><p><b>สิ่งที่คุณต้องการมี ดังนี้</b></p><p>1. Unity Game Project</p><p>2. Github</p><p>3. ความเข้าใจเรื่อง CI/CD</p><p>และไฟล์ดังต่อไปนี้...</p><p><b>Github Action Workflows</b><br>Location: .github/workflows<br></p><p>- Build.yml&nbsp;</p><p><b>Unity Builder Action</b><br>Location: Assets/Editor/UnityBuilderAction</p><p>+ BuildScript.cs</p><p>แค่นี้เลยจริง ๆ ครับ แต่ไอ้แค่นี้ก็เขียนกันเอาเรื่อง ถึงแม้จะมี Template มาให้ก็ตามครับ<br>เอาล่ะ มาเริ่มกันครับ</p><h2 id="andabaerk-maaerimkanthii-github-action-workflows-kanha">อันดับแรก มาเริ่มกันที่ Github Action Workflows กันฮะ</h2><figure class="blockquote"><blockquote>Build.yml</blockquote><figcaption>Location: .github/workflows</figcaption></figure><pre class="line-numbers language-yaml"><code>name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  TARGET_PLATFORM: WebGL
+
+jobs:
+  build:
+    name: Build Game
+    runs-on: larger-ubuntu-4cores # OR ubuntu-latest
+    strategy:
+      fail-fast: false
+    steps:
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      # Cache
+      - uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-
+
+      # Test
+      - name: Run tests
+         uses: game-ci/unity-test-runner@v4
+         env:
+           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+           UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+         with:
+           githubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      # Build
+      - name: Build project
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+        with:
+          targetPlatform: ${{ env.TARGET_PLATFORM }}
+          versioning: Semantic
+          buildMethod: UnityBuilderAction.BuildScript.Build
+
+      # Output
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Build-${{ env.TARGET_PLATFORM }}
+          path: build/${{ env.TARGET_PLATFORM }}
+
+      - name: Logs files
+        run: ls -la</code></pre><p>ซึ่งสามารถดู Template และคำอธิบายเพิ่มเติมได้ที่ Official Website ได้ที่นี่ครับ <a href="https://game.ci/docs/github/builder">https://game.ci/docs/github/builder</a></p><p>สำหรับ targetPlatform สามารถดูได้ที่ List นี้เลยครับ<br><a href="https://docs.unity3d.com/ScriptReference/BuildTarget.html" data-link-popup-id="59d7a30d-e82b-4374-93a5-d6fe74879652">https://docs.unity3d.com/ScriptReference/BuildTarget.html</a></p><p>ซึ่งถ้าจากไฟล์ Build.ymal นี้ก็มุ่งไปที่การ build webgl นะครับ</p><h2 id="swntmaa-eraamaasraang-buildscriptcs-kankhrab">ส่วนต่อมา เรามาสร้าง BuildScript.cs กันครับ</h2><p>สำหรับไฟล์นี้จะเอาไว้ทำการ setup parameter ต่าง ๆ ที่เราต้องการให้การ Build ครับ ซึ่งสำหรับใครที่กำลังมองหาการ Build WebGL ผมแนะนำ Github Repo ของ JohannesDemi เลยครับ Github Repo: <a href="https://github.com/JohannesDeml/UnityWebGL-LoadingTest">https://github.com/JohannesDeml/UnityWebGL-LoadingTest</a></p><p>ใน Repo UnityWebGL-LoadingTest นี้รวมวิธีการเขียน BuildScript.cs สำหรับ WebGL ไว้เป็นตัวหลักเลยครับ ลองเข้าไปดู เข้าไปแก้กันได้ครับ</p><p>ส่วนที่ผมจะนำเสนอในวันนี้เป็นส่วนที่ผมทำการ Modified บางส่วนเพื่อใช้ในการของผมแล้วครับ</p><figure class="blockquote"><blockquote>BuildScript.cs<br></blockquote><figcaption>Location: Assets/Editor/UnityBuilderAction</figcaption></figure><pre class="line-numbers language-csharp"><code>using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using JetBrains.Annotations;
+using UnityEditor;
+using UnityEditor.Build;
+using UnityEditor.Build.Reporting;
+using UnityEditor.Compilation;
+using UnityEngine;
+using UnityEngine.Rendering;
+
+namespace UnityBuilderAction
+{
+	/// &lt;summary&gt;
+	/// Used for building the project through continuous integration (CI) or semi-automated through menu items
+	/// Supports logging in the editor and highly configurable WebGL
+	/// Modified version of &lt;see href="https://github.com/game-ci/documentation/blob/main/example/BuildScript.cs" /&gt;
+	/// Tailored to the needs for &lt;see href="https://github.com/JohannesDeml/UnityWebGL-LoadingTest" /&gt;
+	/// &lt;/summary&gt;
+	public static class BuildScript
+	{
+		private static readonly string Eol = Environment.NewLine;
+		private static bool LogVerboseBatchMode = true;
+		private static bool LogVerboseInEditor = false;
+		private static readonly string CodeOptimizationSpeed =
+#if UNITY_6000_0_OR_NEWER
+		CodeOptimizationWebGL.RuntimeSpeedLTO.ToString();
+#else
+		"speed";
+#endif
+		private static readonly string  CodeOptimizationSize =
+#if UNITY_6000_0_OR_NEWER
+		CodeOptimizationWebGL.DiskSizeLTO.ToString();
+#else
+		"size";
+#endif
+
+		private static readonly string  CodeOptimizationBuildTimes =
+#if UNITY_6000_0_OR_NEWER
+		CodeOptimizationWebGL.BuildTimes.ToString();
+#else
+		"size";
+#endif
+
+		private static readonly string[] Secrets =
+			{ "androidKeystorePass", "androidKeyaliasName", "androidKeyaliasPass" };
+
+		private static BuildPlayerOptions buildPlayerOptions;
+		private static List&lt;string&gt; errorLogMessages = new List&lt;string&gt;();
+
+		[UsedImplicitly]
+		public static void BuildWithCommandlineArgs()
+		{
+			string[] args = Environment.GetCommandLineArgs();
+			Build(args);
+		}
+
+		public static void Build(string[] args)
+		{
+			buildPlayerOptions = new BuildPlayerOptions();
+
+			// Gather values from args
+			Dictionary&lt;string, string&gt; options = GetValidatedOptions(args);
+
+			// Set version for this build if provided
+			if(options.TryGetValue("buildVersion", out string buildVersion) && buildVersion != "none")
+			{
+				PlayerSettings.bundleVersion = buildVersion;
+				PlayerSettings.macOS.buildNumber = buildVersion;
+			}
+
+			// Apply build target
+			var buildTarget = (BuildTarget)Enum.Parse(typeof(BuildTarget), options["buildTarget"]);
+			switch (buildTarget)
+			{
+				case BuildTarget.WebGL:
+#if UNITY_2021_2_OR_NEWER
+					// Use ASTC texture compression, since we are also targeting mobile versions - Don't use this for desktop only targets
+					buildPlayerOptions.subtarget = (int)WebGLTextureSubtarget.ASTC;
+					var namedBuildTarget = NamedBuildTarget.WebGL;
+#endif
+
+					if (options.TryGetValue("tag", out string tagVersion) &&
+						!string.IsNullOrEmpty(tagVersion))
+					{
+						string[] tagParameters = tagVersion.Split('-');
+						if (tagParameters.Contains("minsize"))
+						{
+							PlayerSettings.WebGL.template = "PROJECT:Release";
+							buildPlayerOptions.options |= BuildOptions.CompressWithLz4HC;
+							PlayerSettings.WebGL.exceptionSupport = WebGLExceptionSupport.None;
+							SetWebGlOptimization(CodeOptimizationSize);
+#if UNITY_2022_1_OR_NEWER
+							PlayerSettings.SetIl2CppCodeGeneration(namedBuildTarget, Il2CppCodeGeneration.OptimizeSize);
+#endif
+#if UNITY_2021_2_OR_NEWER
+							PlayerSettings.SetIl2CppCompilerConfiguration(namedBuildTarget, Il2CppCompilerConfiguration.Master);
+#else
+							PlayerSettings.SetIl2CppCompilerConfiguration(BuildTargetGroup.WebGL, Il2CppCompilerConfiguration.Master);
+#endif
+						}
+						else if (tagParameters.Contains("debug"))
+						{
+							PlayerSettings.WebGL.template = "PROJECT:Develop";
+							PlayerSettings.WebGL.exceptionSupport = WebGLExceptionSupport.FullWithStacktrace;
+							// For debug builds this setting will always be build times no matter what is set, setting this more as a documentation of the behavior
+							SetWebGlOptimization(CodeOptimizationBuildTimes);
+#if UNITY_2022_1_OR_NEWER
+							PlayerSettings.SetIl2CppCodeGeneration(namedBuildTarget, Il2CppCodeGeneration.OptimizeSize);
+#endif
+#if UNITY_2021_2_OR_NEWER
+							PlayerSettings.SetIl2CppCompilerConfiguration(namedBuildTarget, Il2CppCompilerConfiguration.Debug);
+							PlayerSettings.WebGL.debugSymbolMode = WebGLDebugSymbolMode.Embedded;
+#else
+							PlayerSettings.SetIl2CppCompilerConfiguration(BuildTargetGroup.WebGL, Il2CppCompilerConfiguration.Debug);
+							PlayerSettings.WebGL.debugSymbols = true;
+#endif
+
+#if UNITY_2022_2_OR_NEWER
+							PlayerSettings.WebGL.showDiagnostics = true;
+#endif
+							buildPlayerOptions.options |= BuildOptions.Development;
+						}
+						else
+						{
+							PlayerSettings.WebGL.template = "PROJECT:Develop";
+							// By default use the speed setting
+							SetWebGlOptimization(CodeOptimizationSpeed);
+#if UNITY_2022_1_OR_NEWER
+							PlayerSettings.SetIl2CppCodeGeneration(namedBuildTarget, Il2CppCodeGeneration.OptimizeSpeed);
+#endif
+#if UNITY_2021_2_OR_NEWER
+							PlayerSettings.SetIl2CppCompilerConfiguration(namedBuildTarget, Il2CppCompilerConfiguration.Master);
+#else
+							PlayerSettings.SetIl2CppCompilerConfiguration(BuildTargetGroup.WebGL, Il2CppCompilerConfiguration.Master);
+#endif
+						}
+
+						List&lt;GraphicsDeviceType&gt; graphicsAPIs = new List&lt;GraphicsDeviceType&gt;();
+						if (tagParameters.Contains("webgl1"))
+						{
+#if !UNITY_2023_1_OR_NEWER
+							graphicsAPIs.Add(GraphicsDeviceType.OpenGLES2);
+#else
+							LogWarning("WebGL1 not supported anymore, choosing WebGL2 instead");
+							graphicsAPIs.Add(GraphicsDeviceType.OpenGLES3);
+#endif
+						}
+						if(tagParameters.Contains("webgl2"))
+						{
+							graphicsAPIs.Add(GraphicsDeviceType.OpenGLES3);
+						}
+						if(tagParameters.Contains("webgpu"))
+						{
+#if UNITY_2023_2_OR_NEWER
+							graphicsAPIs.Add(GraphicsDeviceType.WebGPU);
+							// Enable wasm2023 for WebGPU, since if webGPU is supported everything from 2023 is supported as well
+							PlayerSettings.WebGL.wasm2023 = true;
+#else
+							LogError("WebGPU not supported yet");
+#endif
+						}
+
+						PlayerSettings.SetGraphicsAPIs(BuildTarget.WebGL, graphicsAPIs.ToArray());
+					}
+
+					break;
+			}
+
+			// Additional options for local builds
+			if (!Application.isBatchMode)
+			{
+				if (options.TryGetValue("autorunplayer", out string _))
+				{
+					buildPlayerOptions.options |= BuildOptions.AutoRunPlayer;
+				}
+
+				var projectPath = Application.dataPath.Substring(0, Application.dataPath.Length - "/Assets".Length);
+				BackupLastBuild($"{projectPath}/{options["customBuildPath"]}");
+			}
+
+			errorLogMessages = new List&lt;string&gt;();
+			Application.logMessageReceived += OnLogMessageReceived;
+
+			// Custom build
+			Build(buildTarget, options["customBuildPath"]);
+		}
+
+        private static void OnLogMessageReceived(string logString, string stackTrace, LogType type)
+        {
+            if(type == LogType.Error || type == LogType.Exception)
+			{
+				errorLogMessages.Add($"{logString}{Eol}{stackTrace}");
+			}
+        }
+
+        private static void BackupLastBuild(string buildPath)
+		{
+			if (Directory.Exists(buildPath))
+			{
+				string backupFolderPath = $"{buildPath}-Previous";
+				if (Directory.Exists(backupFolderPath))
+				{
+					Directory.Delete(backupFolderPath, true);
+				}
+				Log($"Moving current build folder to backup location: {backupFolderPath}");
+				Directory.Move(buildPath, backupFolderPath);
+			}
+			else if (File.Exists(buildPath))
+			{
+				string extension = Path.GetExtension(buildPath);
+				string pathWithoutExtension = buildPath.Substring(0, buildPath.Length - extension.Length);
+				string backupFilePath = $"{pathWithoutExtension}-Previous{extension}";
+				if (File.Exists(backupFilePath))
+				{
+					File.Delete(backupFilePath);
+				}
+				Log($"Moving current build file to backup location: {backupFilePath}");
+				File.Move(buildPath, backupFilePath);
+			}
+		}
+
+		private static void SetWebGlOptimization(string value)
+		{
+#if UNITY_2019_4_OR_NEWER
+			EditorUserBuildSettings.SetPlatformSettings(BuildPipeline.GetBuildTargetName(BuildTarget.WebGL),
+				"CodeOptimization", value);
+#else
+			Log($"Setting {nameof(SetWebGlOptimization)} not supported by this unity version");
+#endif
+		}
+
+		private static Dictionary&lt;string, string&gt; GetValidatedOptions(string[] args)
+		{
+			ParseCommandLineArguments(args, out Dictionary&lt;string, string&gt; validatedOptions);
+
+			if (!validatedOptions.TryGetValue("projectPath", out string _))
+			{
+				LogError("Missing argument -projectPath");
+				EndBuild(110);
+			}
+
+			if (!validatedOptions.TryGetValue("buildTarget", out string buildTarget))
+			{
+				LogError("Missing argument -buildTarget");
+				EndBuild(120);
+			}
+
+			if (!Enum.IsDefined(typeof(BuildTarget), buildTarget ?? string.Empty))
+			{
+				EndBuild(121);
+			}
+
+			if (!validatedOptions.TryGetValue("customBuildPath", out string _))
+			{
+				LogError("Missing argument -customBuildPath");
+				EndBuild(130);
+			}
+
+			const string defaultCustomBuildName = "TestBuild";
+			if (!validatedOptions.TryGetValue("customBuildName", out string customBuildName))
+			{
+				LogError($"Missing argument -customBuildName, defaulting to {defaultCustomBuildName}.");
+				validatedOptions.Add("customBuildName", defaultCustomBuildName);
+			}
+			else if (customBuildName == "")
+			{
+				LogError($"Invalid argument -customBuildName, defaulting to {defaultCustomBuildName}.");
+				validatedOptions.Add("customBuildName", defaultCustomBuildName);
+			}
+
+			return validatedOptions;
+		}
+
+		private static void ParseCommandLineArguments(string[] args, out Dictionary&lt;string, string&gt; providedArguments)
+		{
+			providedArguments = new Dictionary&lt;string, string&gt;();
+
+			LogVerbose(
+				$"{Eol}" +
+				$"###########################{Eol}" +
+				$"#	Parsing settings	 #{Eol}" +
+				$"###########################{Eol}" +
+				$"{Eol}"
+			);
+
+			// Extract flags with optional values
+			for (int current = 0, next = 1; current &lt; args.Length; current++, next++)
+			{
+				// Parse flag
+				bool isFlag = args[current].StartsWith("-");
+				if (!isFlag) continue;
+				string flag = args[current].TrimStart('-');
+
+				// Parse optional value
+				bool flagHasValue = next &lt; args.Length && !args[next].StartsWith("-");
+				string value = flagHasValue ? args[next].TrimStart('-') : "";
+				bool secret = Secrets.Contains(flag);
+				string displayValue = secret ? "*HIDDEN*" : "\"" + value + "\"";
+
+				// Assign
+				LogVerbose($"Found flag \"{flag}\" with value {displayValue}.");
+				providedArguments.Add(flag, value);
+			}
+		}
+
+		private static void Build(BuildTarget buildTarget, string filePath)
+		{
+			string[] scenes = EditorBuildSettings.scenes.Where(scene =&gt; scene.enabled).Select(s =&gt; s.path).ToArray();
+			buildPlayerOptions.scenes = scenes;
+			buildPlayerOptions.target = buildTarget;
+			buildPlayerOptions.locationPathName = filePath;
+
+			BuildSummary buildSummary = BuildPipeline.BuildPlayer(buildPlayerOptions).summary;
+			ReportSummary(buildSummary);
+			ExitWithResult(buildSummary.result);
+		}
+
+		private static void ReportSummary(BuildSummary summary)
+		{
+			string summaryText = $"{Eol}" +
+				$"###########################{Eol}" +
+				$"#	  Build results	  #{Eol}" +
+				$"###########################{Eol}" +
+				$"{Eol}" +
+				$"Duration: {summary.totalTime.ToString()}{Eol}" +
+				$"Warnings: {summary.totalWarnings.ToString()}{Eol}" +
+				$"Errors: {summary.totalErrors.ToString()}{Eol}" +
+				$"Size: {summary.totalSize.ToString()} bytes{Eol}" +
+				$"{Eol}";
+
+			if(errorLogMessages.Count &gt; 0)
+			{
+				summaryText += $"### Error log messages: ###{Eol}";
+				summaryText += string.Join(Eol, errorLogMessages);
+			}
+
+			if (summary.totalErrors == 0)
+			{
+				Log(summaryText);
+			}
+			else
+			{
+				LogError(summaryText);
+			}
+		}
+
+		private static void ExitWithResult(BuildResult result)
+		{
+			switch (result)
+			{
+				case BuildResult.Succeeded:
+					Log("Build succeeded!");
+					EndBuild(0);
+					break;
+				case BuildResult.Failed:
+					LogError("Build failed!");
+					EndBuild(101);
+					break;
+				case BuildResult.Cancelled:
+					LogError("Build cancelled!");
+					EndBuild(102);
+					break;
+				case BuildResult.Unknown:
+				default:
+					LogError("Build result is unknown!");
+					EndBuild(103);
+					break;
+			}
+		}
+
+		private static void EndBuild(int returnValue)
+		{
+			if (Application.isBatchMode)
+			{
+				EditorApplication.Exit(returnValue);
+			}
+			else
+			{
+				if (returnValue != 0)
+				{
+					throw new Exception($"BuildScript ended with non-zero exitCode: {returnValue}");
+				}
+			}
+		}
+
+		private static void LogVerbose(string message)
+		{
+			if(Application.isBatchMode)
+			{
+				if (LogVerboseBatchMode)
+				{
+					Console.WriteLine(message);
+				}
+			}
+			else
+			{
+				if (LogVerboseInEditor)
+				{
+					Debug.Log(message);
+				}
+			}
+		}
+
+		private static void Log(string message)
+		{
+			if(Application.isBatchMode)
+			{
+				Console.WriteLine(message);
+			}
+			else
+			{
+				Debug.Log(message);
+			}
+		}
+
+		private static void LogWarning(string message)
+		{
+			if(Application.isBatchMode)
+			{
+				Console.WriteLine(message);
+			}
+			else
+			{
+				Debug.LogWarning(message);
+			}
+		}
+
+		private static void LogError(string message)
+		{
+			if(Application.isBatchMode)
+			{
+				Console.WriteLine(message);
+			}
+			else
+			{
+				Debug.LogError(message);
+			}
+		}
+	}
+}</code></pre><figure class="blockquote"><blockquote>CodeOptimizationWebGL</blockquote><figcaption>Location: Assets/Editor/UnityBuilderAction</figcaption></figure><pre class="line-numbers language-csharp"><code>namespace UnityBuilderAction
+{
+    enum CodeOptimizationWebGL
+    {
+        BuildTimes,
+        RuntimeSpeed,
+        RuntimeSpeedLTO,
+        DiskSize,
+        DiskSizeLTO,
+    }
+}</code></pre><p>เพียงเท่านี้ท่านก็สามารถที่จะทำ GameCI บน Github ได้แล้วคร้าบบบบบ สำหรับ Git Providers อื่น ๆ ท่านสามารถเข้าไปดูได้ที่ <a href="https://game.ci">game.ci</a>&nbsp;นะคร้าบบบ</p><p>ป.ล. การ Build Failed เป็นเพียงจุดเริ่มต้นของความสนุก อีกหลาย ๆ อย่างที่กำลังจะตามมาครับ ทุกปัญหามีทางออก ไม่ใช่ท่านคนเดียวครับที่ Build ไม่ผ่าน 555555~</p></div><footer class="post__inner post__footer"><p class="post__last-updated">This article was updated on November 12, 2024</p><div class="post__share"><h3>Share post:</h3><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fadabrain.studio%2Fbuild-unity-game-dwy-gameci-bn-github-action%2F" class="js-share icon brands fa-facebook" rel="nofollow noopener noreferrer"><span class="label">Facebook</span> </a><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fadabrain.studio%2Fbuild-unity-game-dwy-gameci-bn-github-action%2F&amp;via=%40adabraintv&amp;text=Build%20Unity%20Game%20%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%20GameCI%20%E0%B8%9A%E0%B8%99%20Github%20Action" class="js-share icon brands fa-x-twitter" rel="nofollow noopener noreferrer"><span class="label">Twitter</span></a></div><div class="post__bio"><img src="https://adabrain.studio/media/website/927789.jpg" loading="lazy" height="1477" width="1108" alt="Ada Arkane"><div><h3><a href="https://adabrain.studio/authors/ada-arkane/" class="invert" rel="author">Ada Arkane</a></h3><p>Passionate and driven Founder of AdaBrain Studio co., ltd. with a demonstrated history of creating immersive gaming experiences. With over a decade of industry experience, I have successfully combined my love for game development with my commitment to education, teaching aspiring game developers for the past three years. I thrive on pushing the boundaries of creativity and innovation while nurturing the next generation of game developers.</p></div></div></footer></article></div></div><div id="sidebar"><div class="inner"><div id="search" class="alt"></div><nav id="menu"><header class="major"><h2>Menu</h2></header><ul><li><a href="https://adabrain.studio/" target="_self">Home</a></li><li class="has-submenu"><span aria-haspopup="true" class="opener">Games</span><ul class="submenu level-2" aria-hidden="true"><li><a href="https://adabrain.studio/tags/paideria/" target="_self">Paiderial World</a></li><li><a href="https://adabrain.studio/" target="_self">Dilemma Deception</a></li><li><a href="https://adabrain.studio/tags/the_inviter/" target="_self">The Inviter: Games Make for ADBGJ</a></li><li><a href="https://adabrain.studio/tags/call_on_gods/" target="_self">Call On Gods</a></li></ul></li><li><a href="https://adabrain.studio/tags/course/" title="courses" target="_self">Courses</a></li><li class="has-submenu"><span aria-haspopup="true" class="opener">GameJams</span><ul class="submenu level-2" aria-hidden="true"><li><a href="https://adabrain.medium.com/adabrain-gamejams-2022-the-final-7fdb30df4fcc" target="_self">ADBGJ-2022</a></li><li><a href="https://gamejams.adabrain.tv" target="_self">ADBGJ-2023</a></li><li><a href="https://adabrain.studio/tags/gamejams-2024/" target="_self">ADBGJ-2024</a></li></ul></li><li><a href="https://adabrain.studio/" target="_self">About Us</a></li><li><a href="https://adabrain.studio/" target="_self">Community</a></li></ul></nav><section><header class="major"><h2>Editor Pick's</h2></header><div class="mini-posts"><article><a href="https://adabrain.studio/blog-ebuuenghlangkaarsraang-world-map-khng-paideria-world/" class="image fit"><img src="https://adabrain.studio/media/posts/6/Screenshot_2024-05-01_173216-1.png" srcset="https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-05-01_173216-1-xs.png 300w, https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-05-01_173216-1-sm.png 480w, https://adabrain.studio/media/posts/6/responsive/Screenshot_2024-05-01_173216-1-md.png 768w" sizes="(max-width: 768px) 100vw, 33vw" loading="lazy" height="1430" width="1420" alt=""></a><h3><a href="https://adabrain.studio/blog-ebuuenghlangkaarsraang-world-map-khng-paideria-world/">[Blog] เบื้องหลังการสร้าง World Map ของ Paideria World</a></h3><p>Dev's Blog ของ Paideria World ตัวผมตัดสินใจว่าจะนำเบื้องหลังการสร้างแต่ละสิ่งอย่าง มาเล่าให้ได้ฟังกัน เพราะในไทยเราไม่ค่อยได้มี Blog แนวนี้กันมากนัก ถ้าสิ่งนี้ได้ไปจุดประการความฝันของใครหลาย ๆ คนเพียงเท่านี้ผมก็มีความสุข แล้วครับ เริ่ม! เราจะสร้าง World Map แบบโหลด SubScene&hellip;</p></article><article><a href="https://adabrain.studio/blog-paideria-world-the-current-state-may-2024/" class="image fit"><img src="https://adabrain.studio/media/posts/4/Screenshot-2567-05-06-at-17.36.40.png" srcset="https://adabrain.studio/media/posts/4/responsive/Screenshot-2567-05-06-at-17.36.40-xs.png 300w, https://adabrain.studio/media/posts/4/responsive/Screenshot-2567-05-06-at-17.36.40-sm.png 480w, https://adabrain.studio/media/posts/4/responsive/Screenshot-2567-05-06-at-17.36.40-md.png 768w" sizes="(max-width: 768px) 100vw, 33vw" loading="lazy" height="655" width="1252" alt=""></a><h3><a href="https://adabrain.studio/blog-paideria-world-the-current-state-may-2024/">[Blog] Paideria World: The Current State - May 2024</a></h3><p>สถานะล่าสุดของเกม Paideria World ณ วันนี้ คือ!! เราได้นำตัวเกม Paideria World ทดสอบกับกลุ่ม Focus Group ของเราเป็นที่เรียบร้อยแล้วครับ (สามารถดูภาพบรรยากาศได้เลยครับ) ซึ่งผลที่ออกมาค่อนข้างเป็นที่น่าพอใจกับทีมพัฒนามาก ๆ ครับ ผมอยากให้ทุกท่านลองจินตนาการดูครับว่า ระหว่างที่พวกเรานั่งทำเกมกัน เราไม่รู้เลยว่าเกมของเรามันจะสนุกไหม&hellip;</p></article></div><ul class="actions"><li><a href="https://adabrain.studio/tags/editor_pick/" class="button">More</a></li></ul></section><section><header class="major"><h2>Get in touch</h2></header><p>Whether you're a fellow gamer, a potential partner, or simply curious, don't be a stranger! Drop us a line at <strong>contact@adabrain.studio</strong> and let's chat.</p><ul class="contact"><li class="icon solid fa-envelope"><span style="color: var(--text-primary-color); font-family: var(--font-base); font-size: inherit;"><a href="mailto:contact@adabrain.studio">contact@adabrain.studio</a></span></li><li class="icon solid fa-mobile">+66919594945</li><li class="icon solid fa-home">101/6 AdaBrain Studio, Nai-Mueng, Mueng, Nakhon-Ratchasima, Thailand 30000</li></ul></section><footer id="footer"><p class="copyright">© AdaBrain Studio co., ltd. - All rights reserved</p></footer></div></div></div><script src="https://adabrain.studio/assets/js/jquery.min.js?v=7c14a783dfeb3d238ccd3edd840d82ee"></script><script src="https://adabrain.studio/assets/js/browser.min.js?v=c07298dd19048a8a69ad97e754dfe8d0"></script><script src="https://adabrain.studio/assets/js/breakpoints.min.js?v=81a479eb099e3b187613943b085923b8"></script><script src="https://adabrain.studio/assets/js/util.min.js?v=cbdaf7c20ac2883c77ae23acfbabd47e"></script><script src="https://adabrain.studio/assets/js/main.min.js?v=08add7f6d435054ad38ec38d7cf8be40"></script><script>var images=document.querySelectorAll("img[loading]");for(var i=0;i<images.length;i++){if(images[i].complete){images[i].classList.add("is-loaded")}else{images[i].addEventListener("load",function(){this.classList.add("is-loaded")},false)}};</script></body></html>
